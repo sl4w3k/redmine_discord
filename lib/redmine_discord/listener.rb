@@ -31,7 +31,7 @@ module RedmineDiscord
         IssueEditEmbed.new context
       end
 
-      @dispatcher.dispatch embed_object, project
+      # @dispatcher.dispatch embed_object, project
     end
 
     def controller_wiki_edit_after_save(context={})
@@ -44,7 +44,7 @@ module RedmineDiscord
         WikiEditEmbed.new context
       end
 
-      @dispatcher.dispatch embed_object, project
+      # @dispatcher.dispatch embed_object, project
     end
   end
 end
